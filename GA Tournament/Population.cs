@@ -135,7 +135,7 @@ namespace GA_Tournament
             return minValue + (next * (maxValue - minValue));
         }
         
-        //Merges the new population into the new population.
+        //Merges the new population into the old population.
         //Orders the list to have the best members of both populations
         //Culls the rest to retain a population of maxPopulation
         public void CreateAndMergePop()
